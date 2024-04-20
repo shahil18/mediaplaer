@@ -1,0 +1,68 @@
+media player
+-----------
+
+=>landing
+   =header 
+   =footer
+=>dashboard
+   -header
+   -footer
+   -add video
+   -list video
+   -category
+=>history
+
+1.landing page intro-intro
+2.add youtube videos
+3.list added videos
+4.play added videos 
+5.delete added videos
+6.add category
+7.list category 
+8.list category videos
+9.add videos to category
+10.delete categories
+11.list watch history
+
+we did=>
+---------
+-project create
+-cleanup
+-basic css
+-eact bootstrap install
+    npm i react-bootstrap bootatrap
+-set bootstraptheme
+    bootswatch.com(theme.css)
+-pages and components
+-routing of pages and components
+   react-router-dom
+
+   =>axios
+   --------
+   -package with method for xml httprequest
+   -handle data tansfomation itself
+   -to install   -
+         -npm i axios
+   
+   -axios request structure
+     -basic get rwquest 
+       axios.get{"url"}
+     -other requests
+        const req=axios.create({options})
+
+        {options}=>
+
+        {
+                base_url:"localhost:3000",
+                url:"/allVideos",
+                method:"POST",
+                headers:{"content-Type":"application/json"/"textplain"/multipart/form-data"},
+                data:{caption:"caption",url:"videourl",image:"img-address-url"}
+        }
+
+
+
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P3t--CmbibE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
